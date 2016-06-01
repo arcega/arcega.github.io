@@ -1,0 +1,83 @@
+html, body {
+	height: 100%;
+	background-color: #DDDDDD;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.header {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #444444;
+	padding-top: 5px;
+}
+
+.background {
+	text-align: center;
+	width: 90%;
+	margin: 0px auto 0px auto;
+	background-color: #FFFFFF;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+.contact {
+	max-width: 350px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+
+	margin: 155px 15px 0 15px;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+
+	transition: opacity 0.6s, margin 0.2s;
+	-o-transition: opacity 0.6s, margin 0.2s;
+	-moz-transition: opacity 0.6s, margin 0.2s;
+	-webkit-transition: opacity 0.6s, margin 0.2s;
+}
+
+.contactImg {
+	width: 100px;
+	height: 100px;
+	border: 2pt solid white;
+	border-radius: 50%;
+}
+
+.contact:HOVER {
+	margin-top: 150px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	transition: opacity 0.6s, margin 0.2s;
+	-o-transition: opacity 0.6s, margin 0.2s;
+	-moz-transition: opacity 0.6s, margin 0.2s;
+	-webkit-transition: opacity 0.6s, margin 0.2s;
+}
+
+.description {
+	color: white;
+	background-color: #222222;
+	padding: 1px 0 1px 0;
+}
+
+.content {
+	background-color: white;
+	position: relative;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+}
+
+.footer p {
+	font-size: small;
+	padding-right: 15px;
+}
